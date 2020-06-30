@@ -1,18 +1,16 @@
 package com.fabianromero
 
-import com.fabianromero.headfirstpatterns.DecoyDuck
-import com.fabianromero.headfirstpatterns.FlyBehavior
-import com.fabianromero.headfirstpatterns.FlyNoWay
-import com.fabianromero.headfirstpatterns.FlyWithWings
-import com.fabianromero.headfirstpatterns.MallardDuck
-import com.fabianromero.headfirstpatterns.MuteQuack
-import com.fabianromero.headfirstpatterns.Quack
-import com.fabianromero.headfirstpatterns.QuackBehavior
-import com.fabianromero.headfirstpatterns.RubberDuck
-import com.fabianromero.headfirstpatterns.Squeak
+import com.fabianromero.headfirstpatterns.strategy.DecoyDuck
+import com.fabianromero.headfirstpatterns.strategy.FlyBehavior
+import com.fabianromero.headfirstpatterns.strategy.FlyNoWay
+import com.fabianromero.headfirstpatterns.strategy.FlyWithWings
+import com.fabianromero.headfirstpatterns.strategy.MallardDuck
+import com.fabianromero.headfirstpatterns.strategy.MuteQuack
+import com.fabianromero.headfirstpatterns.strategy.Quack
+import com.fabianromero.headfirstpatterns.strategy.QuackBehavior
+import com.fabianromero.headfirstpatterns.strategy.RubberDuck
+import com.fabianromero.headfirstpatterns.strategy.Squeak
 import spock.lang.Specification
-import spock.lang.Unroll
-
 
 class DuckSpec extends Specification {
 

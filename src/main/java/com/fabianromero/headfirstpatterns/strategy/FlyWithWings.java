@@ -1,4 +1,4 @@
-package com.fabianromero.headfirstpatterns;
+package com.fabianromero.headfirstpatterns.strategy;
 
 public class FlyWithWings implements FlyBehavior {
     @Override
