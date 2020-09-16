@@ -1,6 +1,6 @@
-package dev.fabianromero.functionalprogramming.genericexamples;
+package dev.fabianromero.functionalprogramming.genericexamples.assignmentcompatibility;
 
-public class ClothingPair<E extends Sizable & Coloured> extends Pair<E>{
+public class ClothingPair<E extends Sized & Coloured> extends Pair<E>{
 
     public ClothingPair(E left, E right) {
         super(left, right);
@@ -8,11 +8,10 @@ public class ClothingPair<E extends Sizable & Coloured> extends Pair<E>{
             throw new IllegalStateException("Elements of a pair must have the same size. " +
                     "Left size: " + left.getSize() + " right size: " + right.getSize());
         }
-        if (left.getColor() != right.getColor()) {
-            throw new IllegalStateException("Elements of a pair musta have the same color. " +
+        if (left.getColor().equals(right.getColor())) {
+            throw new IllegalStateException("Elements of a pair must have the same color. " +
                     "Left color: " + left.getColor() + " right color: " + right.getColor());
         }
-
     }
 
 }

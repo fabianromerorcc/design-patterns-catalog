@@ -1,4 +1,4 @@
-package dev.fabianromero.functionalprogramming.genericexamples;
+package dev.fabianromero.functionalprogramming.genericexamples.assignmentcompatibility;
 
 public class Pair<E> {
 

@@ -1,5 +1,8 @@
-package dev.fabianromero.functionalprogramming.genericexamples
+package dev.fabianromero.functionalprogramming.genericexamples.assignmentcompatibility
 
+import dev.fabianromero.functionalprogramming.genericexamples.assignmentcompatibility.ClothingPair
+import dev.fabianromero.functionalprogramming.genericexamples.assignmentcompatibility.Pair
+import dev.fabianromero.functionalprogramming.genericexamples.assignmentcompatibility.Shoe
 import spock.lang.Specification
 
 

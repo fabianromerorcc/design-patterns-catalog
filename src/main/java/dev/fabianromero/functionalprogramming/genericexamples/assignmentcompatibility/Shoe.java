@@ -1,6 +1,6 @@
-package dev.fabianromero.functionalprogramming.genericexamples;
+package dev.fabianromero.functionalprogramming.genericexamples.assignmentcompatibility;
 
-public class Shoe implements Sizable, Coloured {
+public class Shoe implements Sized, Coloured {
     private Integer size;
     private String color;
 
