@@ -25,7 +25,7 @@ class TaxPreparerSpec extends Specification {
     }
 
     @TypeChecked
-    def "Preparing buld taxes giving a List of subtypes Taxable must be accepted"() {
+    def "Preparing bulk taxes giving a List of subtypes Taxable must be accepted"() {
         given: "A list of implementation of Taxable"
         List<Individual> clients = new ArrayList<>()
         clients.add(new Individual())
